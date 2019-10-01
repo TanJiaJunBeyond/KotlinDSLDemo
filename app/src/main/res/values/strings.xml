@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">KotlinDSLDemo</string>
+
+    <string name="common_callback">普通回调</string>
+    <string name="dsl_callback">DSL回调</string>
+    <string name="hint_text">请输入文本</string>
+
+</resources>
