@@ -19,13 +19,13 @@ class MainActivity : AppCompatActivity() {
         val tvDSLCallbackContent = findViewById<TextView>(R.id.tv_dsl_callback_content)
 
         findViewById<EditText>(R.id.et_common_callback_content).addTextChangedListener(object :
-            TextWatcher {
+                TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
-                // no implement
+                // no implementation
             }
 
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-                // no implement
+                // no implementation
             }
 
             override fun afterTextChanged(s: Editable?) {
@@ -34,9 +34,9 @@ class MainActivity : AppCompatActivity() {
         })
 
         findViewById<EditText>(R.id.et_dsl_callback_content).addTextChangedListener(
-            registerTextWatcher {
-                afterTextChanged { tvDSLCallbackContent.text = it }
-            })
+                registerTextWatcher {
+                    afterTextChanged { tvDSLCallbackContent.text = it }
+                })
     }
 
 }
