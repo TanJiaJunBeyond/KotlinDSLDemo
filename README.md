@@ -1,2 +1,2 @@
 # KotlinDSLDemo
-Kotlin DSL demo
+“Kotlin系列——DSL”文章的示例代码。
